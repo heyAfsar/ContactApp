@@ -1,0 +1,12 @@
+for connection
+1) cmd>	npm init > fill in package.json details as prompted to create a package.json file
+2) 3 libraries required :	express, for api creation
+							mysql, for db connection
+							body parser, for data transmission during request and response
+							
+	ways to do it : 
+	1.	add dependencies at package.json
+			"dependencies": {
+				"express": "^4.13.3"
+			}
+		hit npm install from terminal
